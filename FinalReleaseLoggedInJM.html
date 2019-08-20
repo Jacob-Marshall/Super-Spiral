@@ -2,59 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-    .dropbtn {
-      background-color: #4CAF50;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
-
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-
-    .button {
-      background-color: #4CAF50;
-      text-color: white;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
-
-    .navbar li {
-      padding-left:30px;
-      padding-right:30px;
-      margin-left:30px;
-      margin-right:30px;
-    }
-
-    .dropdown-content a:hover {background-color: #ddd;}
-
-    .dropdown:hover .dropdown-content {display: block;}
-
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
-    </style>
-
+<link rel="stylesheet" href="https://jacob-marshall.github.io/Super-Spiral/web_wide_style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Super Spiral</title>
@@ -92,7 +40,7 @@
       saveList();
      }
      function saveList() {
-      localStorage.storedList = document.getElementById("list").innerHTML;
+      cache.storedList = document.getElementById("list").innerHTML;
      }
      function loadList() {
       document.getElementById("list").innerHTML = localStorage.storedList;
@@ -140,21 +88,7 @@
      <br/>
       <div id="list"></div>
     </div>
-    <script>
-     if(localStorage.storedList) {
-      loadList();
-     }
-     var rewards = 0
-     var newFood = function(localStorage.storedList.length)
-     }
-     if newFood = 5 {
-    var rewards + 1
 
-     }
-     if rewards = > 1 {
-       alert("Jacob earned a spiral!")
-     }
-    </script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
