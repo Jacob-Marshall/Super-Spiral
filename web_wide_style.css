@@ -59,6 +59,13 @@ input[type="button"] {
   border-radius: 50px;
   text-align: center;
 }
+.icon {
+  padding: 10px;
+  background: white;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
