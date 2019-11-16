@@ -54,6 +54,9 @@ input[type="button"] {
   border: none;
   align-self: center;
 }
+div[class="input-group-text"] {
+  background-color: #6c757d;
+}
 .pill-black, .pill-white {
   border: 0.5px solid;
   border-radius: 200px;
